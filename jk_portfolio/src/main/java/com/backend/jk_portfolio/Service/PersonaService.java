@@ -2,34 +2,60 @@ package com.backend.jk_portfolio.Service;
 
 import com.backend.jk_portfolio.Entity.Persona;
 import com.backend.jk_portfolio.Interface.IPersonaService;
-import java.util.List;
 import org.springframework.stereotype.Service;
 import com.backend.jk_portfolio.Repository.PersonaRepository;
+import javax.transaction.Transactional;
+import org.springframework.beans.factory.annotation.Autowired;
 
 @Service
-public class PersonaService implements IPersonaService{
-    PersonaRepository rRepository;
-    
+@Transactional
+public class PersonaService implements IPersonaService {
+
+    @Autowired
+    PersonaRepository personaRepo;
+
     @Override
-    public List<Persona> getPersona() {
-        List<Persona> persona = rRepository.findAll();
-        return persona;
+
+    public void deletePersona(int id) {
+
+        personaRepo.deleteById(1);
+
     }
 
     @Override
+
+    public Persona editarPersona(Persona nuevaPersona) {
+
+        Persona persona = personaRepo.findById(1).orElse(null);
+
+        persona.setNombre(nuevaPersona.getNombre());
+
+        persona.setApellido(nuevaPersona.getApellido());
+
+        persona.setImg(nuevaPersona.getImg());
+
+        persona.setAcerca(nuevaPersona.getAcerca());
+
+        persona.setTitulo(nuevaPersona.getTitulo());
+
+        return persona;
+
+    }
+
+    @Override
+
     public void savePersona(Persona persona) {
-        rRepository.save(persona);
+
+        personaRepo.save(persona);
+
     }
 
     @Override
-    public void deletePersona(Long id) {
-       rRepository.deleteById(id);
+
+    public Persona traerPersona() {
+
+        return personaRepo.getReferenceById(1);
+
     }
 
-    @Override
-    public Persona findPersona(Long id) {
-        Persona persona = rRepository.findById(id).orElse(null);
-        return persona;
-    }
-    
 }
