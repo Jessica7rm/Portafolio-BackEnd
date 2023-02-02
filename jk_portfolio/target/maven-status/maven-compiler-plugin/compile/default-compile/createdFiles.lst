@@ -1,0 +1,9 @@
+com/backend/jk_portfolio/Interface/IPersonaService.class
+com/backend/jk_portfolio/Entity/Persona.class
+com/backend/jk_portfolio/Repository/ExperienciaRepository.class
+com/backend/jk_portfolio/Repository/IPersonaRepository.class
+com/backend/jk_portfolio/Controller/PersonaController.class
+com/backend/jk_portfolio/JkPortfolioApplication.class
+com/backend/jk_portfolio/Entity/Experiencia.class
+com/backend/jk_portfolio/Interface/IExperienciaService.class
+com/backend/jk_portfolio/Controller/ExperienciaController.class
