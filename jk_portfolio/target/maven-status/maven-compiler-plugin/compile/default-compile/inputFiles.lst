@@ -1,0 +1,11 @@
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Entity/Persona.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/JkPortfolioApplication.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Interface/IExperienciaService.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Repository/IPersonaRepository.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Service/ExperienciaService.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Entity/Experiencia.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Controller/ExperienciaController.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Controller/PersonaController.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Repository/ExperienciaRepository.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Interface/IPersonaService.java
+/Users/utente/Desktop/program jessy/portafolio/Portafolio-BackEnd/jk_portfolio/src/main/java/com/backend/jk_portfolio/Service/PersonaService.java
