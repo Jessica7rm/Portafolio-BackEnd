@@ -36,7 +36,7 @@ import com.backend.jk_portfolio.Security.service.UsuarioService;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin()
+@CrossOrigin (origins = {"https://portafolio-jessica7rm.web.app/#"})
 public class AuthController {
     @Autowired
     PasswordEncoder passwordEncoder;
