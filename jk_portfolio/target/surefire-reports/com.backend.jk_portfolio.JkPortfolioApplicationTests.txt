@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.backend.jk_portfolio.JkPortfolioApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.131 s - in com.backend.jk_portfolio.JkPortfolioApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.981 s - in com.backend.jk_portfolio.JkPortfolioApplicationTests
